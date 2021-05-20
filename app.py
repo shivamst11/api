@@ -4,8 +4,8 @@ from flask import Flask
 from flask_restful import Api
 from flask_jwt import JWT
 import datetime
-from resources.user import UserRegister
-from resources.items import Item,Itemlist
+from user import UserRegister
+from items import Item,Itemlist
 
 
 
