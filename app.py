@@ -29,4 +29,3 @@ items =[{'name':'urdu'},{'name':'urdu'},{'name':'hindi'}]
 api.add_resource(Item,'/<string:name>')
 api.add_resource(Itemlist,'/')
 api.add_resource(UserRegister,'/Register')
-app.run(debug=True,port=7071)
